@@ -430,8 +430,12 @@ La Encuesta sobre conocimiento y percepción de seguros realizada por la SBS enc
 Este segmento está conformado por compañías aseguradoras que comercializan seguros vehiculares, seguros de vida o ambos tipos de productos, y que buscan ampliar sus canales digitales de distribución y mantener trazabilidad sobre las operaciones generadas mediante intermediarios. Dentro de estas empresas, Livva se orientaría principalmente a áreas comerciales, operaciones, gestión de productos, canales digitales y alianzas.
 
 Al 31 de diciembre de 2025, el sistema asegurador peruano estaba compuesto por 17 empresas, de las cuales 6 se dedicaban a seguros generales, 3 a seguros de vida y 8 operaban en ambos ramos. En conjunto registraron aproximadamente S/ 24 035 millones en primas de seguros netas anualizadas (Superintendencia de Banca, Seguros y AFP [SBS], 2025).
-
 # Capítulo II: Requirements Elicitation & Analysis
+
+El presente capítulo expone el proceso de investigación y análisis de requisitos desarrollado para nuestra solución digital **Livva** y su producto central **AuraFarming**. El objetivo de esta etapa de ingeniería es comprender a profundidad las necesidades reales de nuestros segmentos objetivo, mapear la situación del mercado actual a través del análisis de competidores locales y definir la estructura funcional inicial de la aplicación.
+
 ## 2.1. Competidores 
+
+
 
 
