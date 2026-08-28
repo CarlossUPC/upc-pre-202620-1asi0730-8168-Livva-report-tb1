@@ -430,8 +430,89 @@ La Encuesta sobre conocimiento y percepción de seguros realizada por la SBS enc
 Este segmento está conformado por compañías aseguradoras que comercializan seguros vehiculares, seguros de vida o ambos tipos de productos, y que buscan ampliar sus canales digitales de distribución y mantener trazabilidad sobre las operaciones generadas mediante intermediarios. Dentro de estas empresas, Livva se orientaría principalmente a áreas comerciales, operaciones, gestión de productos, canales digitales y alianzas.
 
 Al 31 de diciembre de 2025, el sistema asegurador peruano estaba compuesto por 17 empresas, de las cuales 6 se dedicaban a seguros generales, 3 a seguros de vida y 8 operaban en ambos ramos. En conjunto registraron aproximadamente S/ 24 035 millones en primas de seguros netas anualizadas (Superintendencia de Banca, Seguros y AFP [SBS], 2025).
-
 # Capítulo II: Requirements Elicitation & Analysis
+
+El presente capítulo expone el proceso de investigación y análisis de requisitos desarrollado para nuestra solución digital **Livva** y su producto central **AuraFarming**. El objetivo de esta etapa de ingeniería es comprender a profundidad las necesidades reales de nuestros segmentos objetivo, mapear la situación del mercado actual a través del análisis de competidores locales y definir la estructura funcional inicial de la aplicación.
+
 ## 2.1. Competidores 
+**SeguroSimple (Competidor Directo - InsurTech):**
+**¿Quién es?:** Es el principal bróker digital de seguros en el Perú.
+Su enfoque: Se especializa en la intermediación digital de seguros vehiculares, permitiendo comparar tarifas de múltiples aseguradoras en minutos y cerrando la venta con un fuerte soporte telefónico o por WhatsApp.
+**ComparaBien (Competidor Indirecto - Agregador/Comparador):**
+**¿Quién es?:** Es una plataforma transnacional consolidada de comparación de servicios financieros y de seguros que opera activamente en Perú.
+Su enfoque: Atrae un enorme volumen de tráfico web orgánico ofreciendo comparaciones neutrales y gratuitas de SOAT, seguros vehiculares y seguros de vida, derivando finalmente los prospectos (leads) a las aseguradoras.
+**Pacífico Seguros - Ecosistema Digital (Competidor Directo/Indirecto - Aseguradora Tradicional):**
+**¿Quién es?:** Una de las compañías de seguros líderes y más grandes del Perú.
+Su enfoque: Ofrece venta directa en línea y autogestión completa a través de su plataforma web y su aplicación móvil nativa "Mi Espacio Pacífico", lo que representa el estándar de digitalización de las aseguradoras tradicionales.
+
+### 2.1.1. Análisis competitivo
+
+A continuación, se presenta el **Competitive Analysis Landscape**, el cual contrasta de manera detallada a nuestra startup, **Livva**, frente a tres competidores reales identificados en el mercado peruano. Este análisis tiene como objetivo principal identificar las brechas operativas en los servicios digitales de intermediación de seguros y establecer nuestra ventaja competitiva diferencial.
+
+#### **Competitive Analysis Landscape**
+**¿Por qué llevar a cabo este análisis?**
+*El objetivo de este análisis es evaluar las estrategias comerciales, el alcance tecnológico y las limitaciones de los competidores directos e indirectos en el sector InsurTech en el Perú, con la finalidad de posicionar a Livva como el bróker digital líder en continuidad de servicio y automatización de procesos de posventa.*
+
+| Competitive Analysis Landscape | Su startup: **Livva** (AuraFarming) | Competidor 1: **SeguroSimple** | Competidor 2: **ComparaBien** | Competidor 3: **Pacífico Seguros (Ecosistema Digital)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Perfil - Overview** | Bróker digital InsurTech enfocado en centralizar y digitalizar la cotización, contratación, renovación y gestión de siniestros de seguros de vida y vehiculares en el Perú. No asume el riesgo directo de las pólizas. | Corredor de seguros digital (InsurTech) peruano, especializado principalmente en la intermediación y comparación en línea de seguros vehiculares particulares. | Plataforma y agregador digital internacional de comparación de productos financieros, préstamos y seguros personales operando en el mercado peruano. | Compañía aseguradora líder y tradicional en el Perú que ofrece canales digitales directos para la adquisición y autogestión de sus propias pólizas. |
+| **Ventaja Competitiva** | Experiencia digital de intermediación continua de extremo a extremo, facilitando la posventa y el seguimiento automatizado de solicitudes mediante flujos guiados y alertas proactivas. | Proceso de cotización ágil con múltiples aseguradoras peruanas y soporte humano directo vía telefónica para el cierre de la venta del seguro vehicular. | Amplio abanico de comparación que cubre múltiples verticales financieras y de seguros de manera neutral y gratuita para el usuario final. | Respaldo corporativo de Credicorp, control completo sobre el proceso de liquidación de siniestros, emisión de pólizas y red propia de talleres y clínicas. |
+| **Marketing - Mercado Objetivo** | Propietarios de vehículos particulares, adultos en busca de seguros de vida para protección familiar y aseguradoras aliadas en Perú. | Conductores y propietarios de vehículos particulares en Lima y provincias que buscan ofertas económicas y ágiles en seguros vehiculares. | Personas naturales peruanas con acceso a internet que requieren comparar precios de múltiples entidades antes de tomar decisiones financieras o de seguros. | Clientes corporativos y personas naturales en el Perú que priorizan la solidez institucional y prefieren tratar de forma directa con la aseguradora emisora. |
+| **Estrategias de Marketing** | Canales digitales, marketing de contenidos centrado en la educación en seguros, posicionamiento SEO y alianzas B2B con compañías aseguradoras. | Fuerte posicionamiento SEM en motores de búsqueda, campañas interactivas en redes sociales enfocadas en el ahorro y conveniencia del seguro de auto. | Posicionamiento SEO orgánico agresivo basado en palabras clave transaccionales de finanzas, email marketing y herramientas de educación financiera. | Campañas omnicanal masivas en televisión, paneles, radio y redes sociales, programas de fidelización y venta cruzada con clientes del Banco de Crédito (BCP). |
+| **Producto - Productos/Servicios** | Plataforma SaaS que incluye portal del cliente (cartera de pólizas, reclamos guiados, gestión de beneficiarios) y portal analítico B2B para aseguradoras. | Cotización comparativa en tiempo real, asesoría personalizada vía WhatsApp/teléfono, venta de pólizas vehiculares de diversas aseguradoras. | Simulador y comparador de tasas de préstamos, depósitos, tarjetas, seguros vehiculares, seguros de vida y SOAT digital. | Venta directa de seguros de auto particulares, seguros de vida (Vida Devolución, Flexible), SOAT digital, y la aplicación móvil "Mi Espacio Pacífico". |
+| **Precios y Costos** | Intermediación por comisión sobre primas y planes de suscripción B2B escalonados según el volumen operativo de las aseguradoras asociadas. | Gratuito para el usuario; monetiza mediante comisiones sobre la prima vendida pagadas por las compañías de seguros aliadas. | Modelo basado en cobro de tarifas de afiliación y costo por adquisición de prospectos calificados (leads) a las instituciones financieras. | Prima comercial calculada según el nivel de riesgo del cliente, antigüedad del vehículo y coberturas seleccionadas (pago mensual o anual). |
+| **Canales de Distribución** | Plataforma Web Responsive adaptable a dispositivos cliente. | Plataforma web responsive, integración con WhatsApp y atención telefónica automatizada/manual. | Portal web optimizado para desktop y móvil, boletines informativos digitales. | Plataforma web transaccional, aplicación móvil nativa (Android/iOS), red de agencias físicas a nivel nacional y call center de emergencias. |
+| **FODA - Fortalezas** | Procesos de intermediación centralizados, experiencia guiada para el usuario final y herramientas de trazabilidad en tiempo real para aseguradoras aliadas. | Proceso de cotización vehicular rápido y excelente tasa de conversión gracias al soporte humano directo de asesores. | Fuerte autoridad de dominio web (SEO), gran volumen de tráfico y marca neutral reconocida por los consumidores. | Gran capacidad financiera, control del proceso de siniestros de inicio a fin y marcas asociadas fuertes. |
+| **FODA - Debilidades** | Dependencia inicial del establecimiento de alianzas con aseguradoras y un marco regulatorio estricto en el sector de seguros de intermediación peruano. | Escaso portafolio de productos fuera de la línea vehicular y dependencia del soporte telefónico que limita la escalabilidad operativa pura. | No realiza el acompañamiento posventa; el usuario es abandonado tras ser derivado a la aseguradora para concretar la compra. | El cliente no puede comparar opciones de otras compañías; la oferta está sesgada únicamente a productos de Pacífico Seguros. |
+| **FODA - Oportunidades** | Gran volumen de inscripciones de vehículos en el país y baja tasa de contratación actual de seguros personales/patrimiales en el mercado. | Expansión hacia seguros personales de salud y de vida digitales aprovechando la base instalada de clientes vehiculares. | Ofrecer compras integradas de pólizas dentro de su propia interfaz web para evitar la fuga de tráfico y monetizar mejor. | Implementación de automatización de inspecciones vehiculares mediante inteligencia artificial para reducir los tiempos de response. |
+| **FODA - Amenazas** | Entrada de corredores tradicionales con capital preexistente que decidan acelerar sus canales de distribución digital independientes. | Lanzamiento de comparadores de seguros oficiales y directos por parte de los grandes grupos bancarios del país. | Mayor competencia de agregadores internacionales con presupuestos publicitarios masivos para captación de tráfico SEO/SEM. | Crecimiento de corredores InsurTech independientes que ofrezcan procesos de posventa digital sumamente ágiles que superen su soporte de app. |
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+A partir del análisis del mercado peruano e identificando las fortalezas y debilidades de los competidores, **Livva** desplegará las siguientes estrategias y tácticas comerciales y tecnológicas:
+
+*   **Estrategia de Diferenciación por Continuidad Digital de Posventa:** Mientras competidores como *ComparaBien* limitan su alcance al redireccionamiento del cliente (lead generation), y *SeguroSimple* depende de costosos call centers manuales para guiar al usuario en la posventa, **Livva** automatiza por completo el flujo de seguimiento de la póliza. La **táctica** tecnológica consistirá en el diseño de un módulo web responsivo de reclamos que guíe paso a paso al usuario ante siniestros vehiculares o actualizaciones de beneficiarios de seguros de vida, permitiendo cargar evidencias fotográficas y rastrear la aprobación de la aseguradora en tiempo real.
+*   **Estrategia de Integración Estructurada B2B:** Al competir con aseguradoras directas como *Pacífico*, que tienen la limitación de vender solo sus propios productos, **Livva** se posiciona como una plataforma neutral para el usuario, pero sumamente beneficiosa para las aseguradoras. Nuestra **táctica** será proveer un portal B2B analítico mediante el cual las aseguradoras asociadas reduzcan su costo de adquisición digital de clientes y reciban información técnica en formatos JSON estructurados, libres de errores comunes de digitación, optimizando sus propios flujos internos de emisión de pólizas.
+*   **Estrategia de Mitigación de Barreras de Confianza mediante Educación Interactiva:** Aprovechando que la SBS reporta baja confianza y limitado conocimiento sobre seguros en el Perú, **Livva** evitará usar contratos engorrosos de difícil lectura. La **táctica** se centrará en integrar flujos asistidos que traduzcan las condiciones comerciales de las pólizas a términos claros (como el significado exacto de los deducibles y coberturas), ayudando a los segmentos a tomar decisiones informadas desde la interfaz web.
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+Para recopilar datos precisos sobre el comportamiento, necesidades, frustraciones y metas de nuestros clientes ideales, diseñamos cuestionarios semiestructurados especializados para cada uno de nuestros tres segmentos objetivo.
+
+#### **Segmento 1: Propietarios de vehículos particulares**
+*   **Preguntas de perfil demográfico y de comportamiento digital (Datos Objetivos):**
+    1. ¿Podría indicarme su rango de edad, distrito de residencia, estado civil y ocupación actual?
+    2. ¿A través de qué dispositivos prefiere realizar consultas, compras o transacciones financieras en internet? ¿Qué navegadores web (como Google Chrome, Safari, Firefox) utiliza usualmente?
+    3. ¿Tiene actualmente contratado un seguro vehicular para su unidad? ¿Cómo fue el proceso de adquisición?
+*   **Preguntas de metas y psicología de uso (Datos Subjetivos):**
+    4. ¿Cuáles son las metas o factores decisivos que prioriza al momento de evaluar y elegir un seguro para su automóvil? (ej. precio, marca, deducibles, confianza).
+    5. ¿Qué marcas comerciales, corredores tradicionales o influencias digitales sigue o asocia habitualmente con la protección de su patrimonio?
+*   **Preguntas de frustraciones e incidentes (Dolores):**
+    6. ¿Ha experimentado algún siniestro o accidente con su vehículo en los últimos años? Si es así, ¿cómo fue la experiencia de reportarlo y gestionar la cobertura con su corredor o aseguradora?
+    7. ¿Qué dificultades, demoras o inconsistencias identificó en los canales de atención que le causaron mayor desconfianza o estrés?
+
+#### **Segmento 2: Personas interesadas en seguros de vida**
+*   **Preguntas de perfil demográfico y de comportamiento digital (Datos Objetivos):**
+    1. ¿Podría indicarme su edad, distrito de residencia, ocupación y si cuenta con dependientes o beneficiarios de ley directos?
+    2. ¿Qué canales digitales, aplicaciones o plataformas web de autoservicio emplea habitualmente para gestiones de mediano y largo plazo?
+    3. ¿Cuenta actualmente con un seguro de vida de protección individual o corporativo activo?
+*   **Preguntas de metas y psicología de uso (Datos Subjetivos):**
+    4. ¿Qué metas personales o de protección familiar espera alcanzar al contratar un seguro de vida?
+    5. ¿Qué nivel de conocimiento tiene sobre las condiciones técnicas, cláusulas de devolución o indemnización de este tipo de contratos?
+*   **Preguntas de frustraciones e incidentes (Dolores):**
+    6. ¿Qué dificultades ha tenido o percibe al intentar registrar o actualizar los porcentajes asignados a sus beneficiarios?
+    7. Al leer o revisar las condiciones de pólizas tradicionales, ¿qué tipo de terminología o proceso le ha generado mayor incertidumbre o sensación de desprotección?
+
+#### **Segmento 3: Representantes de Compañías Aseguradoras**
+*   **Preguntas de perfil institucional y objetivos comerciales (Datos Objetivos):**
+    1. ¿Cuál es su puesto de responsabilidad dentro de la aseguradora, área organizativa y cuántos años de experiencia posee en el sector de seguros?
+    2. ¿Qué ramos de seguros (vehículos, vida, salud, generales) comercializa su institución principalmente a través de intermediarios digitales?
+*   **Preguntas de metas y comportamiento del negocio (Datos Subjetivos):**
+    3. ¿Cuáles son los objetivos corporativos prioritarios de su organización respecto a la integración de canales digitales de distribución externa?
+    4. ¿Qué plataformas analíticas o sistemas de software utilizan en la actualidad para monitorear el desempeño de las ventas originadas por corredores?
+*   **Preguntas de frustraciones y procesos (Dolores):**
+    5. ¿Cuáles son los principales cuellos de botella que afronta su personal técnico-operativo al procesar solicitudes de seguros o reportes de siniestros enviados por brókeres tradicionales?
+    6. ¿Qué nivel de esfuerzo manual, tiempo y costo representa para su compañía la corrección de datos incorrectos o incompletos enviados en los expedientes de pólizas?
 
 
