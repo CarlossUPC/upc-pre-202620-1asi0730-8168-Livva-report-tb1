@@ -62,7 +62,6 @@
 # Tabla de Contenido
 
 [Student Outcome](#student-outcome)
-
 1. [Capítulo I: Introducción](#capítulo-i-introducción)
 	- 1.1. [Startup Profile](#11-startup-profile) 
 		- 1.1.1. [Descripción de la Startup](#111-descripción-de-la-startup)
@@ -405,5 +404,34 @@ Creemos que generaremos ingresos recurrentes y escalables a través de asegurado
 Si las compañías de seguros asociadas
 Obtener acceso a capacidades de distribución digital, gestión operativa y análisis en función de su volumen de negocio
 Con planes de suscripción B2B escalonados.
+
+#### 1.2.2.4. Lean UX Canvas
+
+![](img/lean-ux-canvas.jpeg) 
+
+## 1.3. Segmentos objetivo
+
+Livva considera tres segmentos objetivo vinculados directamente con su propuesta de intermediación digital de seguros de vida y vehiculares.
+
+### Segmento 1: Propietarios de vehículos particulares
+
+Este segmento está conformado principalmente por personas adultas propietarias de automóviles o camionetas de uso particular que buscan contratar y gestionar un seguro vehicular mediante canales digitales. Sus principales necesidades se relacionan con conocer las coberturas disponibles, registrar correctamente la información de su vehículo, acceder a su póliza y recibir acompañamiento ante accidentes o siniestros.
+
+En 2025 se registraron 648 497 primeras inscripciones de vehículos en el Perú, un incremento de 25,26 % respecto de 2024 (Superintendencia Nacional de los Registros Públicos [SUNARP], 2026). Asimismo, la SBS identificó que el 10 % de los encuestados contaba con algún seguro patrimonial, categoría que incluye los seguros vehiculares (Ventura et al., 2023).
+
+### Segmento 2: Personas interesadas en seguros de vida
+
+Este segmento comprende personas adultas interesadas en generar protección económica para sus familiares o beneficiarios. Sus principales necesidades se relacionan con comprender las condiciones del seguro, definir su protección, registrar y actualizar beneficiarios, consultar su póliza y conocer el procedimiento de una eventual solicitud de indemnización.
+
+La Encuesta sobre conocimiento y percepción de seguros realizada por la SBS encontró que el 17 % de los encuestados contaba con algún seguro personal, categoría que incluye los seguros de vida. El estudio también señala que la confianza y el conocimiento de los productos de seguros influyen en su contratación, evidenciando oportunidades para mejorar la claridad de la experiencia ofrecida a los usuarios (Ventura et al., 2023).
+
+### Segmento 3: Compañías aseguradoras
+
+Este segmento está conformado por compañías aseguradoras que comercializan seguros vehiculares, seguros de vida o ambos tipos de productos, y que buscan ampliar sus canales digitales de distribución y mantener trazabilidad sobre las operaciones generadas mediante intermediarios. Dentro de estas empresas, Livva se orientaría principalmente a áreas comerciales, operaciones, gestión de productos, canales digitales y alianzas.
+
+Al 31 de diciembre de 2025, el sistema asegurador peruano estaba compuesto por 17 empresas, de las cuales 6 se dedicaban a seguros generales, 3 a seguros de vida y 8 operaban en ambos ramos. En conjunto registraron aproximadamente S/ 24 035 millones en primas de seguros netas anualizadas (Superintendencia de Banca, Seguros y AFP [SBS], 2025).
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores 
 
 
