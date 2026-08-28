@@ -435,6 +435,15 @@ Al 31 de diciembre de 2025, el sistema asegurador peruano estaba compuesto por 1
 El presente capítulo expone el proceso de investigación y análisis de requisitos desarrollado para nuestra solución digital **Livva** y su producto central **AuraFarming**. El objetivo de esta etapa de ingeniería es comprender a profundidad las necesidades reales de nuestros segmentos objetivo, mapear la situación del mercado actual a través del análisis de competidores locales y definir la estructura funcional inicial de la aplicación.
 
 ## 2.1. Competidores 
+**SeguroSimple (Competidor Directo - InsurTech):**
+**¿Quién es?:** Es el principal bróker digital de seguros en el Perú.
+Su enfoque: Se especializa en la intermediación digital de seguros vehiculares, permitiendo comparar tarifas de múltiples aseguradoras en minutos y cerrando la venta con un fuerte soporte telefónico o por WhatsApp.
+**ComparaBien (Competidor Indirecto - Agregador/Comparador):**
+**¿Quién es?:** Es una plataforma transnacional consolidada de comparación de servicios financieros y de seguros que opera activamente en Perú.
+Su enfoque: Atrae un enorme volumen de tráfico web orgánico ofreciendo comparaciones neutrales y gratuitas de SOAT, seguros vehiculares y seguros de vida, derivando finalmente los prospectos (leads) a las aseguradoras.
+**Pacífico Seguros - Ecosistema Digital (Competidor Directo/Indirecto - Aseguradora Tradicional):**
+**¿Quién es?:** Una de las compañías de seguros líderes y más grandes del Perú.
+Su enfoque: Ofrece venta directa en línea y autogestión completa a través de su plataforma web y su aplicación móvil nativa "Mi Espacio Pacífico", lo que representa el estándar de digitalización de las aseguradoras tradicionales.
 
 ### 2.1.1. Análisis competitivo
 
@@ -458,5 +467,52 @@ A continuación, se presenta el **Competitive Analysis Landscape**, el cual cont
 | **FODA - Oportunidades** | Gran volumen de inscripciones de vehículos en el país y baja tasa de contratación actual de seguros personales/patrimiales en el mercado. | Expansión hacia seguros personales de salud y de vida digitales aprovechando la base instalada de clientes vehiculares. | Ofrecer compras integradas de pólizas dentro de su propia interfaz web para evitar la fuga de tráfico y monetizar mejor. | Implementación de automatización de inspecciones vehiculares mediante inteligencia artificial para reducir los tiempos de response. |
 | **FODA - Amenazas** | Entrada de corredores tradicionales con capital preexistente que decidan acelerar sus canales de distribución digital independientes. | Lanzamiento de comparadores de seguros oficiales y directos por parte de los grandes grupos bancarios del país. | Mayor competencia de agregadores internacionales con presupuestos publicitarios masivos para captación de tráfico SEO/SEM. | Crecimiento de corredores InsurTech independientes que ofrezcan procesos de posventa digital sumamente ágiles que superen su soporte de app. |
 
+### 2.1.2. Estrategias y tácticas frente a competidores
+A partir del análisis del mercado peruano e identificando las fortalezas y debilidades de los competidores, **Livva** desplegará las siguientes estrategias y tácticas comerciales y tecnológicas:
+
+*   **Estrategia de Diferenciación por Continuidad Digital de Posventa:** Mientras competidores como *ComparaBien* limitan su alcance al redireccionamiento del cliente (lead generation), y *SeguroSimple* depende de costosos call centers manuales para guiar al usuario en la posventa, **Livva** automatiza por completo el flujo de seguimiento de la póliza. La **táctica** tecnológica consistirá en el diseño de un módulo web responsivo de reclamos que guíe paso a paso al usuario ante siniestros vehiculares o actualizaciones de beneficiarios de seguros de vida, permitiendo cargar evidencias fotográficas y rastrear la aprobación de la aseguradora en tiempo real.
+*   **Estrategia de Integración Estructurada B2B:** Al competir con aseguradoras directas como *Pacífico*, que tienen la limitación de vender solo sus propios productos, **Livva** se posiciona como una plataforma neutral para el usuario, pero sumamente beneficiosa para las aseguradoras. Nuestra **táctica** será proveer un portal B2B analítico mediante el cual las aseguradoras asociadas reduzcan su costo de adquisición digital de clientes y reciban información técnica en formatos JSON estructurados, libres de errores comunes de digitación, optimizando sus propios flujos internos de emisión de pólizas.
+*   **Estrategia de Mitigación de Barreras de Confianza mediante Educación Interactiva:** Aprovechando que la SBS reporta baja confianza y limitado conocimiento sobre seguros en el Perú, **Livva** evitará usar contratos engorrosos de difícil lectura. La **táctica** se centrará en integrar flujos asistidos que traduzcan las condiciones comerciales de las pólizas a términos claros (como el significado exacto de los deducibles y coberturas), ayudando a los segmentos a tomar decisiones informadas desde la interfaz web.
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+Para recopilar datos precisos sobre el comportamiento, necesidades, frustraciones y metas de nuestros clientes ideales, diseñamos cuestionarios semiestructurados especializados para cada uno de nuestros tres segmentos objetivo.
+
+#### **Segmento 1: Propietarios de vehículos particulares**
+*   **Preguntas de perfil demográfico y de comportamiento digital (Datos Objetivos):**
+    1. ¿Podría indicarme su rango de edad, distrito de residencia, estado civil y ocupación actual?
+    2. ¿A través de qué dispositivos prefiere realizar consultas, compras o transacciones financieras en internet? ¿Qué navegadores web (como Google Chrome, Safari, Firefox) utiliza usualmente?
+    3. ¿Tiene actualmente contratado un seguro vehicular para su unidad? ¿Cómo fue el proceso de adquisición?
+*   **Preguntas de metas y psicología de uso (Datos Subjetivos):**
+    4. ¿Cuáles son las metas o factores decisivos que prioriza al momento de evaluar y elegir un seguro para su automóvil? (ej. precio, marca, deducibles, confianza).
+    5. ¿Qué marcas comerciales, corredores tradicionales o influencias digitales sigue o asocia habitualmente con la protección de su patrimonio?
+*   **Preguntas de frustraciones e incidentes (Dolores):**
+    6. ¿Ha experimentado algún siniestro o accidente con su vehículo en los últimos años? Si es así, ¿cómo fue la experiencia de reportarlo y gestionar la cobertura con su corredor o aseguradora?
+    7. ¿Qué dificultades, demoras o inconsistencias identificó en los canales de atención que le causaron mayor desconfianza o estrés?
+
+#### **Segmento 2: Personas interesadas en seguros de vida**
+*   **Preguntas de perfil demográfico y de comportamiento digital (Datos Objetivos):**
+    1. ¿Podría indicarme su edad, distrito de residencia, ocupación y si cuenta con dependientes o beneficiarios de ley directos?
+    2. ¿Qué canales digitales, aplicaciones o plataformas web de autoservicio emplea habitualmente para gestiones de mediano y largo plazo?
+    3. ¿Cuenta actualmente con un seguro de vida de protección individual o corporativo activo?
+*   **Preguntas de metas y psicología de uso (Datos Subjetivos):**
+    4. ¿Qué metas personales o de protección familiar espera alcanzar al contratar un seguro de vida?
+    5. ¿Qué nivel de conocimiento tiene sobre las condiciones técnicas, cláusulas de devolución o indemnización de este tipo de contratos?
+*   **Preguntas de frustraciones e incidentes (Dolores):**
+    6. ¿Qué dificultades ha tenido o percibe al intentar registrar o actualizar los porcentajes asignados a sus beneficiarios?
+    7. Al leer o revisar las condiciones de pólizas tradicionales, ¿qué tipo de terminología o proceso le ha generado mayor incertidumbre o sensación de desprotección?
+
+#### **Segmento 3: Representantes de Compañías Aseguradoras**
+*   **Preguntas de perfil institucional y objetivos comerciales (Datos Objetivos):**
+    1. ¿Cuál es su puesto de responsabilidad dentro de la aseguradora, área organizativa y cuántos años de experiencia posee en el sector de seguros?
+    2. ¿Qué ramos de seguros (vehículos, vida, salud, generales) comercializa su institución principalmente a través de intermediarios digitales?
+*   **Preguntas de metas y comportamiento del negocio (Datos Subjetivos):**
+    3. ¿Cuáles son los objetivos corporativos prioritarios de su organización respecto a la integración de canales digitales de distribución externa?
+    4. ¿Qué plataformas analíticas o sistemas de software utilizan en la actualidad para monitorear el desempeño de las ventas originadas por corredores?
+*   **Preguntas de frustraciones y procesos (Dolores):**
+    5. ¿Cuáles son los principales cuellos de botella que afronta su personal técnico-operativo al procesar solicitudes de seguros o reportes de siniestros enviados por brókeres tradicionales?
+    6. ¿Qué nivel de esfuerzo manual, tiempo y costo representa para su compañía la corrección de datos incorrectos o incompletos enviados en los expedientes de pólizas?
 
 
