@@ -432,6 +432,262 @@ Este segmento está conformado por compañías aseguradoras que comercializan se
 Al 31 de diciembre de 2025, el sistema asegurador peruano estaba compuesto por 17 empresas, de las cuales 6 se dedicaban a seguros generales, 3 a seguros de vida y 8 operaban en ambos ramos. En conjunto registraron aproximadamente S/ 24 035 millones en primas de seguros netas anualizadas (Superintendencia de Banca, Seguros y AFP [SBS], 2025).
 
 # Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores 
+## 2.1. Competidores
+
+El mercado peruano cuenta actualmente con diferentes plataformas digitales orientadas a facilitar la búsqueda, comparación y contratación de seguros. Debido a que Livva plantea funcionar como un intermediario digital especializado inicialmente en seguros vehiculares y seguros de vida, se consideran como principales competidores aquellas plataformas que permiten al usuario comparar alternativas de distintas compañías aseguradoras y recibir apoyo durante el proceso de contratación.
+
+Para el análisis competitivo se han seleccionado **SeguroSimple, Comparabien y QuePlan**, debido a que presentan características relacionadas directamente con la propuesta de Livva. Asimismo, pueden considerarse como competencia indirecta a compañías aseguradoras como Rímac y Pacífico, debido a que cuentan con canales digitales propios para comercializar seguros directamente al consumidor.
+
+### 2.1.1. Análisis competitivo
+
+#### SeguroSimple
+
+SeguroSimple es un corredor digital de seguros que opera en el mercado peruano. Su propuesta permite al usuario ingresar información para cotizar un seguro vehicular con diferentes aseguradoras y posteriormente recibir asesoría para seleccionar y contratar una alternativa.
+
+La plataforma trabaja con diferentes compañías aseguradoras y brinda acompañamiento tanto durante el proceso de contratación como posteriormente, incluyendo orientación ante renovaciones y siniestros.
+
+**Fortalezas:**
+
+- Especialización en seguros vehiculares.
+- Comparación entre diferentes compañías aseguradoras.
+- Asesoría durante el proceso de contratación.
+- Acompañamiento posterior a la contratación.
+- Presencia establecida en el mercado peruano.
+
+**Debilidades frente a Livva:**
+
+- Su propuesta se encuentra concentrada principalmente en seguros vehiculares.
+- Parte del proceso depende del contacto con asesores.
+- No presenta como elemento principal una experiencia unificada para administrar seguros vehiculares y de vida.
+- No evidencia como propuesta central una gestión digital de beneficiarios.
+- No presenta un portal B2B orientado a las aseguradoras como parte principal de su modelo.
+
+#### Comparabien
+
+Comparabien es una plataforma de comparación de productos financieros que incluye seguros vehiculares, seguros de vida, seguros de salud, SOAT y seguros de viaje, entre otros servicios.
+
+Su funcionamiento está orientado a que el usuario pueda comparar diferentes productos disponibles en el mercado, seleccionar una alternativa y posteriormente realizar una solicitud. En el caso de los seguros vehiculares, permite revisar distintas opciones considerando factores como precio, coberturas y condiciones.
+
+**Fortalezas:**
+
+- Amplia variedad de productos financieros y seguros.
+- Comparación entre diferentes compañías.
+- Facilita la evaluación de precios y características.
+- Cuenta con presencia digital en el mercado peruano.
+- Incluye seguros vehiculares y seguros de vida.
+
+**Debilidades frente a Livva:**
+
+- Su propuesta no está enfocada exclusivamente en seguros.
+- Está principalmente orientada a la búsqueda y comparación de productos.
+- La administración posterior de una póliza no constituye el centro de su propuesta.
+- No presenta como función principal una cartera digital centralizada.
+- No se enfoca en la gestión de beneficiarios, renovaciones o seguimiento continuo de siniestros.
+
+#### QuePlan
+
+QuePlan es una plataforma peruana orientada a la comparación de seguros. Permite a los usuarios evaluar diferentes alternativas disponibles en el mercado y revisar aspectos como coberturas, deducibles, precios y características de los productos.
+
+En el caso de los seguros vehiculares, permite comparar diferentes opciones y brinda acompañamiento durante distintas etapas de la contratación. También ofrece orientación al cliente frente a determinados siniestros.
+
+**Fortalezas:**
+
+- Comparación sencilla de seguros.
+- Permite analizar coberturas, precios y deducibles.
+- Trabaja con diferentes compañías aseguradoras.
+- Brinda acompañamiento durante el proceso de contratación.
+- Ofrece orientación relacionada con siniestros.
+
+**Debilidades frente a Livva:**
+
+- El comparador constituye una parte central de su propuesta.
+- No presenta como elemento principal una cartera digital integral para gestionar distintos seguros.
+- La gestión de beneficiarios de seguros de vida no constituye su principal diferenciador.
+- No evidencia un portal operativo B2B dirigido a compañías aseguradoras.
+- No presenta como propuesta principal planes de suscripción para aseguradoras.
+
+#### Matriz de análisis competitivo
+
+| Característica | Livva | SeguroSimple | Comparabien | QuePlan |
+| :--- | :---: | :---: | :---: | :---: |
+| Cotización digital | Sí | Sí | Sí | Sí |
+| Comparación de aseguradoras | Sí | Sí | Sí | Sí |
+| Seguro vehicular | Sí | Sí | Sí | Sí |
+| Seguro de vida | Sí | No como enfoque principal | Sí | Sí |
+| Gestión digital de pólizas | Sí | Parcial | Limitada | Limitada |
+| Seguimiento de renovaciones | Sí | Parcial | Limitado | Limitado |
+| Asistencia ante siniestros | Sí | Sí | Limitada | Sí |
+| Seguimiento digital de siniestros | Sí | Parcial | No como función principal | Parcial |
+| Gestión de beneficiarios | Sí | No como función principal | No | No como función principal |
+| Notificaciones proactivas | Sí | Parcial | No como función principal | Parcial |
+| Cartera digital centralizada | Sí | Parcial | No | Parcial |
+| Portal para aseguradoras | Sí | No evidenciado | No evidenciado | No evidenciado |
+| Suscripción B2B para aseguradoras | Sí | No evidenciado | No evidenciado | No evidenciado |
+
+A partir del análisis se observa que los competidores actuales cuentan con propuestas sólidas principalmente en las primeras etapas del proceso, como la cotización, comparación y contratación de seguros. Por esta razón, Livva no busca diferenciarse únicamente mediante un cotizador digital, sino mediante una experiencia continua posterior a la adquisición del seguro.
+
+La principal oportunidad competitiva de Livva se encuentra en integrar dentro de una misma plataforma la contratación, consulta de pólizas, administración de beneficiarios, renovaciones, documentación, notificaciones y seguimiento de solicitudes relacionadas con siniestros o indemnizaciones.
+
+Además, Livva incorpora una propuesta orientada al segmento B2B, mediante la cual las compañías aseguradoras asociadas podrán acceder a herramientas para gestionar productos, solicitudes y operaciones originadas dentro de la plataforma.
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+#### Estrategia 1: Diferenciación mediante una experiencia integral del seguro
+
+Livva buscará diferenciarse de los comparadores tradicionales extendiendo su propuesta más allá de la cotización y contratación. El objetivo es que el usuario pueda continuar utilizando la plataforma durante toda la vigencia de su seguro.
+
+**Tácticas:**
+
+- Implementar una cartera digital de pólizas.
+- Mostrar vigencia, coberturas y documentación de cada seguro.
+- Permitir consultar información relacionada con renovaciones.
+- Centralizar el historial relacionado con cada póliza.
+- Permitir consultar información del seguro desde una misma plataforma.
+
+#### Estrategia 2: Fortalecer el acompañamiento posterior a la contratación
+
+Livva buscará mantener una relación continua con el usuario después de la contratación del seguro, permitiendo gestionar diferentes actividades durante la vigencia de la póliza.
+
+**Tácticas:**
+
+- Generar notificaciones sobre vencimientos y renovaciones.
+- Informar cuando exista documentación pendiente.
+- Implementar un flujo guiado para reportar siniestros.
+- Mostrar el estado de las solicitudes realizadas.
+- Centralizar la documentación relacionada con cada proceso.
+
+#### Estrategia 3: Especialización según el tipo de seguro
+
+Livva contará con experiencias diferenciadas para seguros vehiculares y seguros de vida debido a que ambos productos presentan necesidades y procesos distintos.
+
+**Tácticas:**
+
+- Crear un flujo específico para registrar información del vehículo.
+- Implementar funcionalidades para administrar beneficiarios de seguros de vida.
+- Mostrar información específica de acuerdo con el tipo de póliza.
+- Adaptar los procesos de siniestros e indemnizaciones según el producto.
+- Mostrar documentación relevante de acuerdo con el seguro contratado.
+
+#### Estrategia 4: Generar valor para las compañías aseguradoras asociadas
+
+Livva buscará diferenciarse mediante una propuesta que no se limite únicamente al cliente final, sino que también genere valor para las compañías aseguradoras que utilicen la plataforma como canal de distribución.
+
+**Tácticas:**
+
+- Implementar un portal exclusivo para aseguradoras asociadas.
+- Centralizar las solicitudes originadas desde Livva.
+- Proporcionar indicadores sobre las operaciones generadas mediante la plataforma.
+- Mantener información estructurada y trazable de cada solicitud.
+- Incorporar planes de suscripción B2B con distintos niveles de funcionalidades.
+
+#### Estrategia 5: Reducir la fricción durante los procesos digitales
+
+Livva buscará que las solicitudes de seguros sean claras y guiadas con el objetivo de disminuir errores, solicitudes incompletas y abandono durante el proceso.
+
+**Tácticas:**
+
+- Dividir solicitudes complejas en pasos simples.
+- Indicar claramente qué información se encuentra pendiente.
+- Validar los datos ingresados durante cada etapa.
+- Mostrar el avance del proceso.
+- Utilizar lenguaje comprensible para explicar coberturas y requisitos.
+
+En conclusión, la estrategia competitiva de Livva no consiste únicamente en competir mediante precio o cantidad de aseguradoras disponibles. Su principal diferenciación será ofrecer una experiencia continua que acompañe al usuario desde la solicitud inicial hasta la gestión posterior de la póliza, mientras proporciona a las aseguradoras asociadas herramientas digitales para administrar y supervisar las operaciones originadas mediante la plataforma.
+
+## 2.2. Entrevistas
+
+Para conocer mejor las necesidades de nuestros posibles usuarios, se realizarán entrevistas a personas que formen parte de los dos principales segmentos de Livva.
+
+Estas entrevistas nos ayudarán a identificar cómo buscan, contratan y administran sus seguros, qué problemas encuentran durante estos procesos y qué funciones podrían ser útiles dentro de nuestra plataforma.
+
+Los segmentos seleccionados son:
+
+- Propietarios de vehículos particulares.
+- Personas interesadas en seguros de vida.
+
+### 2.2.1. Diseño de entrevistas
+
+Las entrevistas serán semiestructuradas, es decir, se tendrá una lista de preguntas preparadas, pero también se podrán realizar preguntas adicionales dependiendo de las respuestas del entrevistado.
+
+El objetivo es conocer experiencias reales relacionadas con los seguros y encontrar necesidades que puedan ser tomadas en cuenta durante el desarrollo de Livva.
+
+#### Segmento 1: Propietarios de vehículos particulares
+
+**Perfil del entrevistado:**
+
+Personas mayores de edad que tengan un automóvil o camioneta particular y que actualmente tengan un seguro vehicular, hayan tenido uno anteriormente o estén interesados en contratar uno.
+
+**Objetivos:**
+
+- Conocer cómo buscan y contratan seguros vehiculares.
+- Identificar problemas durante la contratación.
+- Conocer cómo administran actualmente su póliza.
+- Identificar dificultades relacionadas con renovaciones y siniestros.
+- Conocer qué funciones esperan de una plataforma digital de seguros.
+
+**Preguntas:**
+
+1. ¿Actualmente tienes o has tenido un seguro vehicular?
+
+2. ¿Cómo buscaste o buscarías información para contratar un seguro para tu vehículo?
+
+3. ¿Qué aspectos consideras más importantes al elegir un seguro vehicular?
+
+4. ¿Has utilizado alguna página web para cotizar o comparar seguros? ¿Cómo fue tu experiencia?
+
+5. ¿Qué dificultades has encontrado al momento de contratar o entender un seguro vehicular?
+
+6. ¿Cómo consultas actualmente la información de tu póliza y tus coberturas?
+
+7. ¿Has tenido algún accidente o siniestro? Si es así, ¿cómo fue el proceso con la aseguradora?
+
+8. ¿Te gustaría recibir recordatorios sobre renovaciones, vencimientos o información pendiente?
+
+9. ¿Te sería útil tener tus pólizas, documentos y coberturas en una sola plataforma?
+
+10. ¿Qué función consideras más importante en una plataforma para gestionar tu seguro vehicular?
+
+---
+
+#### Segmento 2: Personas interesadas en seguros de vida
+
+**Perfil del entrevistado:**
+
+Personas mayores de edad que tengan actualmente un seguro de vida, hayan considerado contratar uno o estén interesadas en proteger económicamente a sus familiares o beneficiarios.
+
+**Objetivos:**
+
+- Conocer qué saben los usuarios sobre los seguros de vida.
+- Identificar dificultades para comprender este tipo de seguro.
+- Conocer qué factores consideran antes de contratar.
+- Identificar necesidades relacionadas con la gestión de beneficiarios.
+- Conocer qué funciones podrían ser útiles en una plataforma digital.
+
+**Preguntas:**
+
+1. ¿Actualmente tienes un seguro de vida o alguna vez has pensado en contratar uno?
+
+2. ¿Qué sabes sobre el funcionamiento de un seguro de vida?
+
+3. ¿Dónde buscarías información antes de contratar un seguro de vida?
+
+4. ¿Qué aspectos considerarías más importantes al elegir un seguro de vida?
+
+5. ¿Te resulta fácil entender conceptos como cobertura, monto asegurado y beneficiarios?
+
+6. Si ya tienes un seguro de vida, ¿cómo consultas actualmente la información de tu póliza?
+
+7. ¿Consideras fácil revisar o actualizar la información de tus beneficiarios?
+
+8. ¿Te gustaría recibir recordatorios o notificaciones relacionadas con tu seguro?
+
+9. ¿Te sería útil tener tus documentos, coberturas y beneficiarios en una sola plataforma?
+
+10. ¿Qué función consideras más importante en una plataforma para gestionar un seguro de vida?
+
+### 2.2.2. Registro de entrevistas
+
+
+### 2.2.3. Análisis de entrevistas
 
 
