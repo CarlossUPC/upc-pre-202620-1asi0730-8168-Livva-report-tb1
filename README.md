@@ -471,7 +471,7 @@ Su funcionamiento está orientado a que el usuario pueda comparar diferentes pro
 **Fortalezas:**
 
 - Amplia variedad de productos financieros y seguros.
-- Comparación entre diferentes compañías.
+- Comparación entre diferentes compañías..
 - Facilita la evaluación de precios y características.
 - Cuenta con presencia digital en el mercado peruano.
 - Incluye seguros vehiculares y seguros de vida.
