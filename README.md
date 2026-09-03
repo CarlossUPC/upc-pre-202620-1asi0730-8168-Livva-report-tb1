@@ -731,6 +731,10 @@ Personas mayores de edad que tengan actualmente un seguro de vida, hayan conside
   
 **Resumen de entrevista:**
 
+
 ### 2.2.3. Análisis de entrevistas
 
+### Segmento 1:
 
+
+### Segmento 2:
