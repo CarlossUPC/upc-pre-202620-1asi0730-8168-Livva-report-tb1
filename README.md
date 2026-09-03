@@ -693,36 +693,42 @@ Personas mayores de edad que tengan actualmente un seguro de vida, hayan conside
 - **Nombre:**
 - **Edad:**
 - **Distrito de residencia:**
+  
 **Resumen de entrevista:**
 
 #### Entrevista 2 -
 - **Nombre:**
 -  **Edad:**
 - **Distrito de residencia:**
+  
 **Resumen de entrevista:**
 
 #### Entrevista 3 -
 - **Nombre:**
 -  **Edad:**
 - **Distrito de residencia:**
+  
 **Resumen de entrevista:**
   
 ### Segmento Objetivo 2
 - **Nombre:**
 -  **Edad:**
 - **Distrito de residencia:**
+  
 **Resumen de entrevista:**
 
 #### Entrevista 2 -
 - **Nombre:**
 - **Edad:**
 - **Distrito de residencia:**
+  
 **Resumen de entrevista:**
 
 #### Entrevista 3 -
 - **Nombre:**
 - **Edad:**
 - **Distrito de residencia:**
+  
 **Resumen de entrevista:**
 
 ### 2.2.3. Análisis de entrevistas
